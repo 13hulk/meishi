@@ -37,7 +37,7 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 THIRD_PARTY_APPS = ["django_extensions", "rest_framework"]
-USER_APPS = []
+USER_APPS = ["cards"]
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + USER_APPS
 
 MIDDLEWARE = [
